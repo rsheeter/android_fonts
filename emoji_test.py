@@ -4,11 +4,13 @@ from absl.testing import parameterized
 import emoji
 
 class EmojiTest(parameterized.TestCase):
+  # Emojipedia shows (4.0, 628), seemingly due to 0x1F46F (people w/bunny ears)
+  # and 0x1F93C (people wrestling) having gender and type modifiers.
   @parameterized.parameters(
     (1.0, 1264),
     (2.0, 343),
     (3.0, 179),
-    (4.0, 628),
+    (4.0, 608), # see note above
     (5.0, 239),
     (11.0, 157),
     (12.0, 230),

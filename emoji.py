@@ -11,59 +11,139 @@ done;
 
 Some APIs assume harfbuzz compiled at ./harfbuzz.
 """
+import collections
 import os
 import pandas
 import regex
 import subprocess
 
+
+_LINE_FILTERS = {
+  # 11.0 file has a bunch of things it doesn't support with this classification
+  'emoji-data.txt': lambda parts: parts[1] != 'Extended_Pictographic',  
+}
+
+_LEVEL_OVERRIDES = {
+  # keycaps (qualified) in 3.0 rather than 1.0
+  (0x23, 0xFE0F, 0x20E3): 3.0,
+  (0x2A, 0xFE0F, 0x20E3): 3.0,
+  (0x30, 0xFE0F, 0x20E3): 3.0,
+  (0x31, 0xFE0F, 0x20E3): 3.0,
+  (0x32, 0xFE0F, 0x20E3): 3.0,
+  (0x33, 0xFE0F, 0x20E3): 3.0,
+  (0x34, 0xFE0F, 0x20E3): 3.0,
+  (0x35, 0xFE0F, 0x20E3): 3.0,
+  (0x36, 0xFE0F, 0x20E3): 3.0,
+  (0x37, 0xFE0F, 0x20E3): 3.0,
+  (0x38, 0xFE0F, 0x20E3): 3.0,
+  (0x39, 0xFE0F, 0x20E3): 3.0,
+}
+
+_STATUS_OVERRIDES = {
+  # Handshakes and Wrestlers uniquely *only* appear as Emoji_Modifier_Sequence
+  (129309, 127995): 'fully-qualified',
+  (129309, 127995): 'fully-qualified',
+  (129309, 127996): 'fully-qualified',
+  (129309, 127997): 'fully-qualified',
+  (129309, 127998): 'fully-qualified',
+  (129309, 127999): 'fully-qualified',
+  (129340, 127995): 'fully-qualified',
+  (129340, 127996): 'fully-qualified',
+  (129340, 127997): 'fully-qualified',
+  (129340, 127998): 'fully-qualified',
+  (129340, 127999): 'fully-qualified',
+}
+
 def _parse_emoji_test(filename):
   result = []
-  #line_pat = regex.compile(r'^(?:([a-zA-Z0-9]+)(?:\s+|;))+;\s*([^#\s]+)\s*#\s*(.*)\s*$')
-  line_pat = regex.compile(r'^(?:(?:([a-zA-Z0-9]+)(?:\s+|;))+|([a-zA-Z0-9]+[.][.][a-zA-Z0-9]+)(?:\s*));\s*([^#\s]+)\s*#\s*(.*)\s*$')
+
+  basename = os.path.basename(filename)
   with open(filename) as f:
-    for l in f:
-      match = line_pat.match(l)
-      if not match:
+    for line in f:
+      line = line.strip()
+      if line.startswith('#') or not line:
         continue
+
+      # Single regex got a bit long, just split repeatedly
+      parts = regex.split(r'[;]', line)
+      if '#' in parts[-1]:
+        parts = parts[:-1] + regex.split(r'[#]', parts[-1], maxsplit=1)
+      parts = [p.strip() for p in parts]
+
+      if not _LINE_FILTERS.get(basename, lambda _: True)(parts):
+        continue
+
+      raw_codepoints = parts[0]
+      status = parts[1] if len(parts) == 3 else '?'
+      notes = parts[-1]
+
+      # raw_codepoints is either 1 or more space separated hex values or A..B range
+      match = regex.match(r'^(?:([a-zA-Z0-9]+)([.][.]|\s+)?)+$', raw_codepoints)
+      if not match:
+        raise IOError(f'Unable to parse codepoints from "{line}"')
+
       codepoints = tuple(int(s, 16) for s in match.captures(1))
-      codepoint_range = match.group(2)
-      if codepoints and codepoint_range:
-        raise ValueError(f'Parse {l} failed horribly, {codepoints}, {codepoints_range}')
-      status = match.group(3)
-      notes = match.group(4)
-      if codepoints:
-        result.append((codepoints, status, notes))
+      if not codepoints:
+        raise IOError(f'Failed to extract codepoints from "{line}"')
+
+      if match.group(2) == '..':
+        if len(codepoints) != 2:
+          raise IOError(f'Bad range in "{line}"')
+        for codepoint in range(codepoints[0], codepoints[1] + 1):
+          result.append(((codepoint,), status, notes))  
       else:
-        start, end = [int(s, 16) for s in codepoint_range.split('..')]
-        for cp in range(start, end + 1):
-          result.append(((cp,), status, notes))
+        result.append((codepoints, status, notes))
   return result
 
 def metadata():
   """Load metadata for Android emoji.
 
+  Does NOT implement exactly http://www.unicode.org/reports/tr51/#Major_Sources
+  because that didn't do well at identifying older emoji version content.
+
   Returns a pandas DataFrame with columns
   ['emoji_level', 'codepoints', 'status', 'notes']"""
-  seq_min_level = {}
+  seq_minmax_level = {}
   seq_to_meta = {}
   for root, dirs, files in os.walk('emoji'):
     for file in files:
-      should_parse = (file == 'emoji-test.txt'
-                      or (file == 'emoji-data.txt'
-                          and not os.path.isfile(os.path.join(root, 'emoji-test.txt'))))
-      if should_parse:
-        current_level = float(os.path.basename(root))
-        recs = _parse_emoji_test(os.path.join(root, file))
-        for codepoints, status, notes in recs:
-          # Sequences should be attributed to the earliest level seen
-          seq_min_level[codepoints] = min(seq_min_level.get(codepoints, current_level),
-                                          current_level)
+      current_level = float(os.path.basename(root))
+      recs = _parse_emoji_test(os.path.join(root, file))
+      for codepoints, status, notes in recs:
+        curr_min, curr_max = seq_minmax_level.get(codepoints, (current_level, current_level))
 
-          # metadata is better when newer
+        min_level = min(curr_min, current_level)
+        max_level = max(curr_min, current_level)
+        seq_minmax_level[codepoints] = (min_level, max_level)
+
+        # metadata seems to have improved over time, prefer newest one from emoji-test.txt
+        if not codepoints in seq_to_meta:
+          seq_to_meta[codepoints] = (status, notes)
+        elif current_level >= curr_max and file == 'emoji-test.txt':
           seq_to_meta[codepoints] = (status, notes)
 
+  # if we've seen the unqualified version earlier, bump back qualified to match
+  # seems to only apply to some of the very early versions
+  for codepoints, (status, notes) in seq_to_meta.items():
+    if status == 'fully-qualified' and 0xFE0F in codepoints:
+      cp_unqualified = tuple((cp for cp in codepoints if cp != 0xFE0F))
+      seq_minmax_level[codepoints] = min(seq_minmax_level[cp_unqualified],
+                                         seq_minmax_level[codepoints])
 
-  records = ((seq_min_level[codepoints], codepoints, status, notes)
+  # apply fixups where data seemed off
+  for codepoints, level in _LEVEL_OVERRIDES.items():
+    if not codepoints in seq_minmax_level:
+      continue
+    seq_minmax_level[codepoints] = (level, level)
+
+  for codepoints, status in _STATUS_OVERRIDES.items():
+    if not codepoints in seq_to_meta:
+      continue
+    (_, notes) = seq_to_meta[codepoints]
+    seq_to_meta[codepoints] = (status, notes)
+
+  # attribute sequence to earliest observed level
+  records = ((seq_minmax_level[codepoints][0], codepoints, status, notes)
              for codepoints, (status, notes) in seq_to_meta.items())
   df = pandas.DataFrame(records)
   df.columns = ['emoji_level', 'codepoints', 'status', 'notes']
