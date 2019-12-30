@@ -1,7 +1,7 @@
 """Generate a csv of emoji sequence support.
 
 Saves time when running utilities that use the data.
-Takes ~20M to run.
+Takes ~30M to run.
 """
 import android_fonts
 import emoji
@@ -12,7 +12,7 @@ def main():
   emoji_levels = sorted(emoji_meta['emoji_level'].unique())
 
   fonts = android_fonts.metadata()
-  fonts = fonts[fonts.font_file.str.endswith('NotoColorEmoji.ttf')]
+  fonts = fonts[fonts.font_file.str.endswith('Emoji.ttf')]
 
   support = []
 

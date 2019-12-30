@@ -29,7 +29,12 @@ def _font_summary():
   return sf
 
 def _emoji_summary():
-  df = android_fonts.emoji_support()
+  df = (android_fonts.emoji_support()
+        .rename(columns={'cp_seq': 'codepoints'}))
+  # merge emoji metadata to gain the status column
+  df = df.merge(emoji.metadata().drop(columns=['emoji_level']),
+                on='codepoints')
+  df = df[df['status'] == 'fully-qualified']
   df.supported = df.supported.astype('int32')
 
   sf = (df.groupby(['font_file', 'emoji_level'])

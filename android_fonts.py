@@ -58,6 +58,8 @@ def metadata():
 def emoji_support():
   """Dataframe of [emoji_level, font_file, cp_seq, supported].
 
+  Includes every sequence we could find of any type.
+
   Requires prior execution of populate_emoji_support.py"""
 
   if not os.path.isfile(_SUPPORT_CACHE_CSV):

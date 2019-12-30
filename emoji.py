@@ -178,7 +178,11 @@ def supports(font_file, cp_seq):
     raise IOError(f'Unable to parse {shape_result.stdout} from {" ".join(cmd)}')
 
   # shaping to nothing or including a notdef is bad
+  # a single non-zero gid is required for full support
+  # otherwise [adult][red hair] is "support"
+  # NOTE: this will implode horribly for a composed font
+  # will need to consider positions when that comes around
   cps = {int(t) for t in match.captures(1)}
-  return bool(cps) and not 0 in cps
+  return len(cps) == 1 and not 0 in cps
 
 
