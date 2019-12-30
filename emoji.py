@@ -54,6 +54,14 @@ _STATUS_OVERRIDES = {
   (129340, 127999): 'fully-qualified',
 }
 
+def emoji_font(api_level):
+  dirpath = f'./api_level/{api_level}/'
+  fonts = [f for f in os.listdir(f'./api_level/{api_level}/')
+           if 'Emoji' in f]
+  if len(fonts) > 1:
+    raise IOError(f'Too many choices in {dirpath}: {fonts}')
+  return os.path.abspath(os.path.join(dirpath, fonts[0])) if fonts else None
+
 def _parse_emoji_test(filename):
   result = []
 
@@ -165,11 +173,12 @@ def supports(font_file, cp_seq):
   if shape_result.returncode != 0:
     raise IOError(f'Code {shape_result.returncode} from "{" ".join(cmd)}"'
                   f', stderr {shape_result.stderr}')
-  match = regex.match(r'\[(?:(\d+)[|\]]?)+\]', shape_result.stdout)
+  match = regex.match(r'\[(?:(\d+)[|\]]?)*\]', shape_result.stdout)
   if not match:
     raise IOError(f'Unable to parse {shape_result.stdout} from {" ".join(cmd)}')
 
-    # if anything shaped to notdef we're borked
-  return 0 not in {int(t) for t in match.captures(1)}
+  # shaping to nothing or including a notdef is bad
+  cps = {int(t) for t in match.captures(1)}
+  return bool(cps) and not 0 in cps
 
 

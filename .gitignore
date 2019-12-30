@@ -1,2 +1,3 @@
 venv/
 harfbuzz/
+__pycache__/
