@@ -3,6 +3,7 @@ import android_fonts
 import copy
 import emoji
 import json
+from lxml import etree
 import os
 
 def _out(file):
@@ -83,10 +84,37 @@ def _make_graphs():
   _save_graph(df.plot.bar(x='api_level', y='delta_size_MB'),
               'size_change.png')
 
+def remove_svg_width_height(svg_file):
+  svg = etree.parse(svg_file)
+  del svg.getroot().attrib['width']
+  del svg.getroot().attrib['height']
+  with open(svg_file, 'wb') as f:
+    svg.write(f, pretty_print=True)
+
+def _make_legacy_images():
+  df = android_fonts.emoji_detail();
+  df = df[(df['supported'] == 1)
+          & (df['font_file'] == 'AndroidEmoji.ttf')]
+  print(f'Saving {df.shape[0]} images...')
+  for _, row in df.iterrows():
+    api = row.api_level
+    codepoints = row.codepoints
+    font_file = f'api_level/{row.api_level}/{row.font_file}'
+    img_dir = _out(f'api_level/{row.api_level}')
+    os.makedirs(img_dir, exist_ok=True)
+    img_file = os.path.join(img_dir,
+                            'emoji_u'
+                            + '_'.join(['%04x' % v for v in row.codepoints])
+                            + '.svg')
+    emoji.render(font_file, codepoints, img_file)
+    remove_svg_width_height(img_file)
+
+
 def main():
   _make_summary_json()
   _make_emoji_json()
   _make_graphs()
+  _make_legacy_images()
 
 if __name__ == '__main__':
   main()

@@ -185,4 +185,17 @@ def supports(font_file, cp_seq):
   cps = [int(t) for t in match.captures(1)]
   return len(cps) == 1 and 0 not in cps
 
+def render(font_file, cp_seq, dest_file):
+  cmd = [
+    './harfbuzz/util/hb-view',
+    "-u",
+    " ".join(("%x" % c for c in cp_seq)),
+    "-o",
+    dest_file,
+    font_file,
+  ]
+  view_result = subprocess.run(cmd, capture_output=True, text=True)
+  if view_result.returncode != 0:
+    raise IOError(f'Code {view_result.returncode} from "{" ".join(cmd)}"'
+                  f', stderr {view_result.stderr}')
 
