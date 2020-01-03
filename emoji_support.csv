@@ -1241,7 +1241,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/16/AndroidEmoji.ttf,"(127462, 127485)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127462, 127487)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127462)",False
-1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127463)",True
+1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127463)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127465)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127466)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127467)",False
@@ -1262,7 +1262,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127486)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127463, 127487)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127464, 127462)",False
-1.0,api_level/16/AndroidEmoji.ttf,"(127464, 127464)",True
+1.0,api_level/16/AndroidEmoji.ttf,"(127464, 127464)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127464, 127465)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127464, 127467)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127464, 127468)",False
@@ -1290,7 +1290,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/16/AndroidEmoji.ttf,"(127465, 127487)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127466, 127462)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127466, 127464)",False
-1.0,api_level/16/AndroidEmoji.ttf,"(127466, 127466)",True
+1.0,api_level/16/AndroidEmoji.ttf,"(127466, 127466)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127466, 127468)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127466, 127469)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127466, 127479)",False
@@ -1308,7 +1308,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127465)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127466)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127467)",False
-1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127468)",True
+1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127468)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127469)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127470)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127468, 127473)",False
@@ -1374,7 +1374,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127469)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127472)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127473)",False
-1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127474)",True
+1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127474)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127475)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127476)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127474, 127477)",False
@@ -1436,7 +1436,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127475)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127476)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127479)",False
-1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127480)",True
+1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127480)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127481)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127483)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127480, 127485)",False
@@ -1455,7 +1455,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127475)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127476)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127479)",False
-1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127481)",True
+1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127481)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127483)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127484)",False
 1.0,api_level/16/AndroidEmoji.ttf,"(127481, 127487)",False
@@ -2722,7 +2722,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/17/AndroidEmoji.ttf,"(127462, 127485)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127462, 127487)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127462)",False
-1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127463)",True
+1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127463)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127465)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127466)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127467)",False
@@ -2743,7 +2743,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127486)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127463, 127487)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127464, 127462)",False
-1.0,api_level/17/AndroidEmoji.ttf,"(127464, 127464)",True
+1.0,api_level/17/AndroidEmoji.ttf,"(127464, 127464)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127464, 127465)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127464, 127467)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127464, 127468)",False
@@ -2771,7 +2771,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/17/AndroidEmoji.ttf,"(127465, 127487)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127466, 127462)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127466, 127464)",False
-1.0,api_level/17/AndroidEmoji.ttf,"(127466, 127466)",True
+1.0,api_level/17/AndroidEmoji.ttf,"(127466, 127466)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127466, 127468)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127466, 127469)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127466, 127479)",False
@@ -2789,7 +2789,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127465)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127466)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127467)",False
-1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127468)",True
+1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127468)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127469)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127470)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127468, 127473)",False
@@ -2855,7 +2855,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127469)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127472)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127473)",False
-1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127474)",True
+1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127474)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127475)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127476)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127474, 127477)",False
@@ -2917,7 +2917,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127475)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127476)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127479)",False
-1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127480)",True
+1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127480)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127481)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127483)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127480, 127485)",False
@@ -2936,7 +2936,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127475)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127476)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127479)",False
-1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127481)",True
+1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127481)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127483)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127484)",False
 1.0,api_level/17/AndroidEmoji.ttf,"(127481, 127487)",False
@@ -4203,7 +4203,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/18/AndroidEmoji.ttf,"(127462, 127485)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127462, 127487)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127462)",False
-1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127463)",True
+1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127463)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127465)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127466)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127467)",False
@@ -4224,7 +4224,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127486)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127463, 127487)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127464, 127462)",False
-1.0,api_level/18/AndroidEmoji.ttf,"(127464, 127464)",True
+1.0,api_level/18/AndroidEmoji.ttf,"(127464, 127464)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127464, 127465)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127464, 127467)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127464, 127468)",False
@@ -4252,7 +4252,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/18/AndroidEmoji.ttf,"(127465, 127487)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127466, 127462)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127466, 127464)",False
-1.0,api_level/18/AndroidEmoji.ttf,"(127466, 127466)",True
+1.0,api_level/18/AndroidEmoji.ttf,"(127466, 127466)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127466, 127468)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127466, 127469)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127466, 127479)",False
@@ -4270,7 +4270,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127465)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127466)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127467)",False
-1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127468)",True
+1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127468)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127469)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127470)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127468, 127473)",False
@@ -4336,7 +4336,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127469)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127472)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127473)",False
-1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127474)",True
+1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127474)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127475)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127476)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127474, 127477)",False
@@ -4398,7 +4398,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127475)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127476)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127479)",False
-1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127480)",True
+1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127480)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127481)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127483)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127480, 127485)",False
@@ -4417,7 +4417,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127475)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127476)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127479)",False
-1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127481)",True
+1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127481)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127483)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127484)",False
 1.0,api_level/18/AndroidEmoji.ttf,"(127481, 127487)",False
@@ -7165,7 +7165,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/21/NotoColorEmoji.ttf,"(127462, 127485)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127462, 127487)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127462)",False
-1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127463)",True
+1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127463)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127465)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127466)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127467)",False
@@ -7186,7 +7186,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127486)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127463, 127487)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127464, 127462)",False
-1.0,api_level/21/NotoColorEmoji.ttf,"(127464, 127464)",True
+1.0,api_level/21/NotoColorEmoji.ttf,"(127464, 127464)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127464, 127465)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127464, 127467)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127464, 127468)",False
@@ -7214,7 +7214,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/21/NotoColorEmoji.ttf,"(127465, 127487)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127466, 127462)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127466, 127464)",False
-1.0,api_level/21/NotoColorEmoji.ttf,"(127466, 127466)",True
+1.0,api_level/21/NotoColorEmoji.ttf,"(127466, 127466)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127466, 127468)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127466, 127469)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127466, 127479)",False
@@ -7232,7 +7232,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127465)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127466)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127467)",False
-1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127468)",True
+1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127468)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127469)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127470)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127468, 127473)",False
@@ -7298,7 +7298,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127469)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127472)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127473)",False
-1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127474)",True
+1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127474)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127475)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127476)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127474, 127477)",False
@@ -7360,7 +7360,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127475)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127476)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127479)",False
-1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127480)",True
+1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127480)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127481)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127483)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127480, 127485)",False
@@ -7379,7 +7379,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127475)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127476)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127479)",False
-1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127481)",True
+1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127481)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127483)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127484)",False
 1.0,api_level/21/NotoColorEmoji.ttf,"(127481, 127487)",False
@@ -8646,7 +8646,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/22/NotoColorEmoji.ttf,"(127462, 127485)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127462, 127487)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127462)",False
-1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127463)",True
+1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127463)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127465)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127466)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127467)",False
@@ -8667,7 +8667,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127486)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127463, 127487)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127464, 127462)",False
-1.0,api_level/22/NotoColorEmoji.ttf,"(127464, 127464)",True
+1.0,api_level/22/NotoColorEmoji.ttf,"(127464, 127464)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127464, 127465)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127464, 127467)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127464, 127468)",False
@@ -8695,7 +8695,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/22/NotoColorEmoji.ttf,"(127465, 127487)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127466, 127462)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127466, 127464)",False
-1.0,api_level/22/NotoColorEmoji.ttf,"(127466, 127466)",True
+1.0,api_level/22/NotoColorEmoji.ttf,"(127466, 127466)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127466, 127468)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127466, 127469)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127466, 127479)",False
@@ -8713,7 +8713,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127465)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127466)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127467)",False
-1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127468)",True
+1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127468)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127469)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127470)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127468, 127473)",False
@@ -8779,7 +8779,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127469)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127472)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127473)",False
-1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127474)",True
+1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127474)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127475)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127476)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127474, 127477)",False
@@ -8841,7 +8841,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127475)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127476)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127479)",False
-1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127480)",True
+1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127480)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127481)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127483)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127480, 127485)",False
@@ -8860,7 +8860,7 @@ emoji_level,font_file,cp_seq,supported
 1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127475)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127476)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127479)",False
-1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127481)",True
+1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127481)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127483)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127484)",False
 1.0,api_level/22/NotoColorEmoji.ttf,"(127481, 127487)",False
