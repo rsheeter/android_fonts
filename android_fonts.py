@@ -56,7 +56,7 @@ def metadata():
   return df
 
 def emoji_support():
-  """Dataframe of [emoji_level, font_file, cp_seq, supported].
+  """Dataframe of [emoji_level, font_file, codepoints, supported].
 
   Includes every sequence we could find of any type.
 
@@ -64,5 +64,6 @@ def emoji_support():
 
   if not os.path.isfile(_SUPPORT_CACHE_CSV):
     raise IOError('Please run populate_emoji_support.py first')
-  return pd.read_csv(_SUPPORT_CACHE_CSV, converters={'cp_seq': ast.literal_eval})
+  return (pd.read_csv(_SUPPORT_CACHE_CSV, converters={'cp_seq': ast.literal_eval})
+          .rename(columns={'cp_seq': 'codepoints'}))
 

@@ -10,6 +10,7 @@ def _out(file):
                       file)
 
 _SUMMARY = _out('emoji_summary.json')
+_EMOJI = _out('emoji_detail.json')
 
 def _font_summary():
   df = android_fonts.metadata()
@@ -28,22 +29,30 @@ def _font_summary():
 
   return sf
 
-def _emoji_summary():
-  df = (android_fonts.emoji_support()
-        .rename(columns={'cp_seq': 'codepoints'}))
+def _emoji_df():
+  df = android_fonts.emoji_support()
   # merge emoji metadata to gain the status column
   df = df.merge(emoji.metadata().drop(columns=['emoji_level']),
                 on='codepoints')
+
   df = df[df['status'] == 'fully-qualified']
+  df = df.drop(columns='status')
+
   df.supported = df.supported.astype('int32')
 
-  sf = (df.groupby(['font_file', 'emoji_level'])
+  df['api_level'] = df.font_file.str.split('/').str[1]
+  df.api_level = df.api_level.astype('int32')
+  df['font_file'] = df.font_file.str.split('/').str[2]
+
+  return df
+
+def _emoji_summary():
+  df = _emoji_df()
+
+  sf = (df.groupby(['font_file', 'api_level', 'emoji_level'])
         .agg({'supported': ['sum', 'count']}))
   sf.columns = ['supported', 'total']
   sf.reset_index(inplace=True)
-  sf['api_level'] = sf.font_file.str.split('/').str[1]
-  sf.api_level = sf.api_level.astype('int32')
-  sf['font_file'] = sf.font_file.str.split('/').str[2]
 
   sf2 = (sf.drop(columns='emoji_level')
         .groupby('api_level')
@@ -97,6 +106,23 @@ def _make_summary_json():
     f.write(json.dumps(summary, indent=2))
   print(f'Wrote {_SUMMARY}')
 
+def _make_emoji_json():
+  # meant for searching emoji sequences
+  df = _emoji_df()
+  df['api_support'] = (df[['api_level', 'supported']]
+                       .apply(lambda t: (t.api_level, t.supported), axis=1))
+
+  df = (df.groupby(['codepoints', 'emoji_level'])
+        .agg({
+              'api_support': lambda t: {api for api, supported in t if supported},
+              'notes': lambda n: n.unique(),
+             }))
+  df.reset_index(inplace=True)
+
+  with open(_EMOJI, 'w') as f:
+    f.write(json.dumps(json.loads(df.to_json(orient='records')), indent=2))
+  print(f'Wrote {_EMOJI}')
+
 def _save_graph(ax, filename):
   ax.get_figure().savefig(_out(filename))
   print(f'Wrote {_out(filename)}')
@@ -110,6 +136,7 @@ def _make_graphs():
 
 def main():
   _make_summary_json()
+  _make_emoji_json()
   _make_graphs()
 
 if __name__ == '__main__':
