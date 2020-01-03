@@ -1,4 +1,5 @@
 import ast
+import emoji
 import os
 import pandas as pd
 
@@ -67,3 +68,53 @@ def emoji_support():
   return (pd.read_csv(_SUPPORT_CACHE_CSV, converters={'cp_seq': ast.literal_eval})
           .rename(columns={'cp_seq': 'codepoints'}))
 
+def font_summary():
+  df = metadata()
+  sf = (df
+        .groupby(['api_level'])
+        .agg({'font_file': 'count', 'file_size': 'sum'}))
+  sf['file_size'] = sf['file_size'].apply(lambda sz: (sz / pow(2, 20)))
+  sf.rename(columns = {
+    'font_file': 'num_files',
+    'file_size': 'size_MB',
+  }, inplace=True)
+
+  sf['delta_size_MB'] = sf['size_MB'] - sf['size_MB'].shift(1)
+
+  sf.reset_index(inplace=True)
+
+  return sf
+
+def emoji_detail():
+  df = emoji_support()
+  # merge emoji metadata to gain the status column
+  df = df.merge(emoji.metadata().drop(columns=['emoji_level']),
+                on='codepoints')
+
+  df = df[df['status'] == 'fully-qualified']
+  df = df.drop(columns='status')
+
+  df.supported = df.supported.astype('int32')
+
+  df['api_level'] = df.font_file.str.split('/').str[1]
+  df.api_level = df.api_level.astype('int32')
+  df['font_file'] = df.font_file.str.split('/').str[2]
+
+  return df
+
+def emoji_summary():
+  df = emoji_detail()
+
+  sf = (df.groupby(['font_file', 'api_level', 'emoji_level'])
+        .agg({'supported': ['sum', 'count']}))
+  sf.columns = ['supported', 'total']
+  sf.reset_index(inplace=True)
+
+  sf2 = (sf.drop(columns='emoji_level')
+        .groupby('api_level')
+        .agg('sum')
+        .reset_index())
+  sf2['delta'] = sf2['supported'] - sf2['supported'].shift(1)
+  sf2.fillna(0, inplace=True)
+
+  return sf, sf2
