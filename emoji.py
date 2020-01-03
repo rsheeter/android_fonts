@@ -182,7 +182,7 @@ def supports(font_file, cp_seq):
   # otherwise [adult][red hair] is "support"
   # NOTE: this will implode horribly for a composed font
   # will need to consider positions when that comes around
-  cps = {int(t) for t in match.captures(1)}
+  cps = [int(t) for t in match.captures(1)]
   return len(cps) == 1 and not 0 in cps
 
 

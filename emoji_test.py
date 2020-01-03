@@ -40,6 +40,7 @@ class EmojiTest(parameterized.TestCase):
     ((0x200D,), 21, False),  # shapes to []
     ((0x1F44D,), 21, True),
     ((0x1F9B5,), 21, False),
+    ((0x1f1e7, 0x1f1e7), 21, False),  # shapes to same gid twice
     ((0x1F469, 0x1F3FB, 0x200D, 0x1F9B0,), 27, False),
     ((0x1F469, 0x1F3FB, 0x200D, 0x1F9B0,), 28, True),
     ((0x1f9d1, 0x1f3fe, 0x200d, 0x1f9b0,), 28, False),  # multiple gids
