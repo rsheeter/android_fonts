@@ -54,9 +54,12 @@ _STATUS_OVERRIDES = {
   (129340, 127999): 'fully-qualified',
 }
 
+def datafile(filename):
+  return os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
+
 def emoji_font(api_level):
-  dirpath = f'./api_level/{api_level}/'
-  fonts = [f for f in os.listdir(f'./api_level/{api_level}/')
+  dirpath = datafile(f'./api_level/{api_level}/')
+  fonts = [f for f in os.listdir(dirpath)
            if 'Emoji' in f]
   if len(fonts) > 1:
     raise IOError(f'Too many choices in {dirpath}: {fonts}')
@@ -113,7 +116,7 @@ def metadata():
   ['emoji_level', 'codepoints', 'status', 'notes']"""
   seq_minmax_level = {}
   seq_to_meta = {}
-  for root, dirs, files in os.walk('emoji'):
+  for root, dirs, files in os.walk(datafile('emoji')):
     for file in files:
       current_level = float(os.path.basename(root))
       recs = _parse_emoji_test(os.path.join(root, file))

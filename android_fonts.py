@@ -3,7 +3,7 @@ import emoji
 import os
 import pandas as pd
 
-_SUPPORT_CACHE_CSV = 'emoji_support.csv'
+_SUPPORT_CACHE_CSV = emoji.datafile('emoji_support.csv')
 
 _API_LEVELS = {
   1: ("(no codename)", "1.0"),
