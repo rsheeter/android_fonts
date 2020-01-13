@@ -49,5 +49,12 @@ class EmojiTest(parameterized.TestCase):
     filename = emoji.emoji_font(api_level)
     self.assertEqual(emoji.supports(filename, cp_seq), expected_result)
 
+  @parameterized.parameters(
+    ('emoji_u1f646_1f3fb_200d_2642.ai', (0x1f646, 0x1f3fb, 0x200d, 0x2642)),
+    ('/duck/emoji_u1f647.png', (0x1f647,)),
+  )
+  def test_codepoints(self, filename, expected_result):
+    self.assertEqual(emoji.codepoints(filename), expected_result)
+
 if __name__ == '__main__':
   absltest.main()

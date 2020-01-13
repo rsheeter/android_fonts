@@ -202,3 +202,11 @@ def render(font_file, cp_seq, dest_file):
     raise IOError(f'Code {view_result.returncode} from "{" ".join(cmd)}"'
                   f', stderr {view_result.stderr}')
 
+def codepoints(filename):
+  _, filename = os.path.split(filename)
+  match = regex.match(r'^emoji_u(?:([a-zA-Z0-9]+)_?)+[.](ai|png|svg)',
+                      filename)
+  if not match:
+    raise ValueError(f'{filename} not recognized')
+  return tuple(int(v, 16) for v in match.captures(1))
+
