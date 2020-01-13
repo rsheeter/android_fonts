@@ -1,3 +1,5 @@
 venv/
 harfbuzz/
 __pycache__/
+*.egg-info/
+*.pyc
