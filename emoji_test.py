@@ -16,6 +16,7 @@ class EmojiTest(parameterized.TestCase):
     (11.0, 157),
     (12.0, 230),
     (12.1, 168),
+    (13.0, 117),
   )
   def test_expected_emoji_added(self, level, expected_delta):
     df = emoji.metadata()

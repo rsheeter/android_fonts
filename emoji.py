@@ -57,6 +57,7 @@ _STATUS_OVERRIDES = {
 def datafile(filename):
   return os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
 
+
 def emoji_font(api_level):
   dirpath = datafile(f'./api_level/{api_level}/')
   fonts = [f for f in os.listdir(dirpath)
@@ -64,6 +65,7 @@ def emoji_font(api_level):
   if len(fonts) > 1:
     raise IOError(f'Too many choices in {dirpath}: {fonts}')
   return os.path.abspath(os.path.join(dirpath, fonts[0])) if fonts else None
+
 
 def _parse_emoji_test(filename):
   result = []
@@ -105,6 +107,7 @@ def _parse_emoji_test(filename):
       else:
         result.append((codepoints, status, notes))
   return result
+
 
 def metadata():
   """Load metadata for Android emoji.
@@ -160,6 +163,7 @@ def metadata():
   df.columns = ['emoji_level', 'codepoints', 'status', 'notes']
   return df
 
+
 def supports(font_file, cp_seq):
   cmd = [
     './harfbuzz/util/hb-shape',
@@ -188,6 +192,7 @@ def supports(font_file, cp_seq):
   cps = [int(t) for t in match.captures(1)]
   return len(cps) == 1 and 0 not in cps
 
+
 def render(font_file, cp_seq, dest_file):
   cmd = [
     './harfbuzz/util/hb-view',
@@ -201,6 +206,7 @@ def render(font_file, cp_seq, dest_file):
   if view_result.returncode != 0:
     raise IOError(f'Code {view_result.returncode} from "{" ".join(cmd)}"'
                   f', stderr {view_result.stderr}')
+
 
 def codepoints(filename):
   _, filename = os.path.split(filename)
