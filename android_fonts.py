@@ -34,6 +34,7 @@ _API_LEVELS = {
   27: ("Oreo", "8.1.0"),
   28: ("Pie", "9"),
   29: ("Android10", "10"),
+  30: ("Android11", "11"),
 }
 
 def api_levels():
