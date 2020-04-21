@@ -2,6 +2,8 @@
 from absl.testing import absltest
 from absl.testing import parameterized
 import emoji
+import itertools
+from itertools import chain
 import os
 
 class EmojiTest(parameterized.TestCase):
@@ -50,12 +52,56 @@ class EmojiTest(parameterized.TestCase):
     filename = emoji.emoji_font(api_level)
     self.assertEqual(emoji.supports(filename, cp_seq), expected_result)
 
+
   @parameterized.parameters(
     ('emoji_u1f646_1f3fb_200d_2642.ai', (0x1f646, 0x1f3fb, 0x200d, 0x2642)),
     ('/duck/emoji_u1f647.png', (0x1f647,)),
   )
   def test_codepoints(self, filename, expected_result):
     self.assertEqual(emoji.codepoints(filename), expected_result)
+
+
+  @parameterized.parameters(
+    (12.1, 0),
+    (13.0, 56),  # 55 new + 26A7 newly classified emoji
+  )
+  def test_expected_codepoints_added(self, level, expected_delta):
+    df = emoji.metadata()
+    level_cp = set(itertools.chain.from_iterable( df[df.emoji_level == level].codepoints))
+    prior_cp = set(itertools.chain.from_iterable( df[df.emoji_level < level].codepoints))
+    new_at_level = level_cp - prior_cp
+    self.assertEqual(len(new_at_level), expected_delta)
+
+
+
+  @parameterized.parameters(
+    ((0x1F600,), 1.0),  # Smiley Face
+    # Men holding hands, medium dark tone and medium light tone
+    ((0x1F468, 0x1F3FE, 0x200D, 0x1F91D, 0x200D, 0x1F468, 0x1F3FC), 12.0),
+  )
+  def test_expected_emoji_level(self, codepoints, expected_level):
+    df = emoji.metadata()
+    df = df[df.codepoints == codepoints]
+    self.assertEqual(df.shape[0], 1, "Should be only one matching record")
+    self.assertEqual(df.iloc[0].emoji_level, expected_level)
+
+
+  @parameterized.parameters(
+    # Smile w/hearts, added in 28
+    ((0x1f970,), [[25, 26, 27], [28]]),
+     # Smiley consistent 21..23, 24..25, 26..28, 29
+    ((0x263A,), [[21, 22, 23], [24, 25], [26, 27, 28], [29]]), 
+  )
+  def test_hash_of_render(self, cp_seq, expected_groups):
+    hashes = []
+    for api_level in chain.from_iterable(expected_groups):
+      font_file = emoji.emoji_font(api_level)
+      hashes.append((api_level, emoji.hash_of_render(font_file, cp_seq)))
+    hashes.sort()
+
+    actual_groups = [[i[0] for i in g] for _, g in
+                     itertools.groupby(hashes, key=lambda t: t[1])]
+    self.assertEqual(actual_groups, expected_groups)
 
 if __name__ == '__main__':
   absltest.main()

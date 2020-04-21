@@ -1,10 +1,18 @@
 """Generates assets for web display of Android font info."""
+from absl import app
+from absl import flags
 import android_fonts
 import copy
 import emoji
 import json
 from lxml import etree
 import os
+
+FLAGS = flags.FLAGS
+
+flags.DEFINE_boolean('generate_legacy_images', True,
+                     'Whether to generate images for web-incompatible fonts.'
+                     ' Turn off if you already have them and want to save time.')
 
 def _out(file):
   return os.path.join(os.path.expanduser('~/oss/rsheeter.github.io/android_fonts'),
@@ -61,10 +69,13 @@ def _make_emoji_json():
   df = android_fonts.emoji_detail()
   df['api_support'] = (df[['api_level', 'supported']]
                        .apply(lambda t: (t.api_level, t.supported), axis=1))
+  df['hashes_of_renders'] = (df[['api_level', 'hash_of_render']]
+                             .apply(lambda t: (t.api_level, t.hash_of_render), axis=1))
 
   df = (df.groupby(['codepoints', 'emoji_level'])
         .agg({
-              'api_support': lambda t: {api for api, supported in t if supported},
+              'api_support': lambda t: sorted({api for api, supported in t if supported}),
+              'hashes_of_renders': lambda t: {api: hash for api, hash in t},
               'notes': lambda n: n.unique(),
              }))
   df.reset_index(inplace=True)
@@ -110,11 +121,12 @@ def _make_legacy_images():
     remove_svg_width_height(img_file)
 
 
-def main():
+def main(_):
   _make_summary_json()
   _make_emoji_json()
   _make_graphs()
-  _make_legacy_images()
+  if FLAGS.generate_legacy_images:
+    _make_legacy_images()
 
-if __name__ == '__main__':
-  main()
+if __name__ == "__main__":
+    app.run(main)

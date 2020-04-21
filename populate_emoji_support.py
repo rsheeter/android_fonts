@@ -8,6 +8,7 @@ a single emoji file.
 from absl import app
 from absl import flags
 import android_fonts
+import base64
 import emoji
 from operator import itemgetter
 import pandas as pd
@@ -46,11 +47,17 @@ def _build_dataset():
     for font_file in sorted(fonts.font_file):
       print(f'Working on emoji {emoji_level}, {font_file}...')
       for cp_seq in cp_seqs:
-        support.append((emoji_level, font_file, cp_seq, emoji.supports(font_file, cp_seq)))
+        supported = emoji.supports(font_file, cp_seq)
+        hash_of_render = ''
+        if supported:
+          hash_of_render = emoji.hash_of_render(font_file, cp_seq)
+          hash_of_render = base64.b64encode(hash_of_render).decode('ascii')
+        support.append((emoji_level, font_file, cp_seq,
+                        supported, f'{int(supported)}_{hash_of_render}')) 
 
   support.sort(key=itemgetter(0, 1, 2))
   df = pd.DataFrame(support)
-  df.columns=['emoji_level', 'font_file', 'cp_seq', 'supported']
+  df.columns=['emoji_level', 'font_file', 'cp_seq', 'supported', 'hash_of_render']
 
   return df
 

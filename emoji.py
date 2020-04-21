@@ -12,10 +12,12 @@ done;
 Some APIs assume harfbuzz compiled at ./harfbuzz.
 """
 import collections
+import hashlib
 import os
 import pandas
 import regex
 import subprocess
+import tempfile
 
 
 _LINE_FILTERS = {
@@ -206,6 +208,15 @@ def render(font_file, cp_seq, dest_file):
   if view_result.returncode != 0:
     raise IOError(f'Code {view_result.returncode} from "{" ".join(cmd)}"'
                   f', stderr {view_result.stderr}')
+
+
+def hash_of_render(font_file, cp_seq):
+  with tempfile.NamedTemporaryFile() as tmp_file:
+    render(font_file, cp_seq, tmp_file.name)
+    with open(tmp_file.name, 'rb') as tmp_reader:
+      hash = hashlib.md5()
+      hash.update(tmp_reader.read())
+      return hash.digest()
 
 
 def codepoints(filename):
