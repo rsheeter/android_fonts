@@ -48,16 +48,11 @@ def _build_dataset():
       print(f'Working on emoji {emoji_level}, {font_file}...')
       for cp_seq in cp_seqs:
         supported = emoji.supports(font_file, cp_seq)
-        hash_of_render = ''
-        if supported:
-          hash_of_render = emoji.hash_of_render(font_file, cp_seq)
-          hash_of_render = base64.b64encode(hash_of_render).decode('ascii')
-        support.append((emoji_level, font_file, cp_seq,
-                        supported, f'{int(supported)}_{hash_of_render}')) 
+        support.append((emoji_level, font_file, cp_seq, supported))
 
   support.sort(key=itemgetter(0, 1, 2))
   df = pd.DataFrame(support)
-  df.columns=['emoji_level', 'font_file', 'cp_seq', 'supported', 'hash_of_render']
+  df.columns=['emoji_level', 'font_file', 'cp_seq', 'supported']
 
   return df
 
