@@ -65511,3 +65511,425 @@ emoji_level,font_file,cp_seq,supported
 13.0,api_level/30/NotoColorEmoji.ttf,"(129748,)",True
 13.0,api_level/30/NotoColorEmoji.ttf,"(129749,)",True
 13.0,api_level/30/NotoColorEmoji.ttf,"(129750,)",True
+13.1,api_level/30/NotoColorEmoji.ttf,"(10084, 8205, 128293)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(10084, 8205, 129657)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(10084, 65039, 8205, 128293)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(10084, 65039, 8205, 129657)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128104, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128104, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128105, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 128105, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128143, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128143, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128143, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128143, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128143, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128145, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128145, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128145, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128145, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128145, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128558, 8205, 128168)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128565, 8205, 128171)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128566, 8205, 127787)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(128566, 8205, 127787, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127995, 8205, 10084, 65039, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127996, 8205, 10084, 65039, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127997, 8205, 10084, 65039, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127998, 8205, 10084, 65039, 8205, 129489, 127999)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 128139, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 129489, 127995)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 129489, 127996)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 129489, 127997)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129489, 127999, 8205, 10084, 65039, 8205, 129489, 127998)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 8205, 9792)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 8205, 9792, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 8205, 9794)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 8205, 9794, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127995, 8205, 9792)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127995, 8205, 9792, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127995, 8205, 9794)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127995, 8205, 9794, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127996, 8205, 9792)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127996, 8205, 9792, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127996, 8205, 9794)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127996, 8205, 9794, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127997, 8205, 9792)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127997, 8205, 9792, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127997, 8205, 9794)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127997, 8205, 9794, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127998, 8205, 9792)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127998, 8205, 9792, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127998, 8205, 9794)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127998, 8205, 9794, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127999, 8205, 9792)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127999, 8205, 9792, 65039)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127999, 8205, 9794)",False
+13.1,api_level/30/NotoColorEmoji.ttf,"(129492, 127999, 8205, 9794, 65039)",False
