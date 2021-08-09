@@ -69,13 +69,13 @@ def _make_emoji_json():
   df = android_fonts.emoji_detail()
   df['api_support'] = (df[['api_level', 'supported']]
                        .apply(lambda t: (t.api_level, t.supported), axis=1))
-  df['hashes_of_renders'] = (df[['api_level', 'hash_of_render']]
-                             .apply(lambda t: (t.api_level, t.hash_of_render), axis=1))
+  # df['hashes_of_renders'] = (df[['api_level', 'hash_of_render']]
+  #                            .apply(lambda t: (t.api_level, t.hash_of_render), axis=1))
 
   df = (df.groupby(['codepoints', 'emoji_level'])
         .agg({
               'api_support': lambda t: sorted({api for api, supported in t if supported}),
-              'hashes_of_renders': lambda t: {api: hash for api, hash in t},
+              #'hashes_of_renders': lambda t: {api: hash for api, hash in t},
               'notes': lambda n: n.unique(),
              }))
   df.reset_index(inplace=True)

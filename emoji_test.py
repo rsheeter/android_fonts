@@ -21,6 +21,7 @@ import pytest
     (12.1, 168),
     (13.0, 117),
     (13.1, 217),
+    (14.0, 107), # TODO sanity check
   ],
 )
 def test_expected_emoji_added(level, expected_delta):
