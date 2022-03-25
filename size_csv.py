@@ -23,7 +23,7 @@ def main(argv):
 
     for key in sorted(font_dict):
         print(f"{key} : {font_dict[key]}")
-        csv_data_list.append({"Font": key, "Size (B)": font_dict[key]})
+        csv_data_list.append({fields[0]: key, fields[1]: font_dict[key]})
 
     print(f"\nTotal size: {total_filesize}")
     print(f"Total fonts: {total_font_count}")
