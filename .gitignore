@@ -3,3 +3,4 @@ harfbuzz/
 __pycache__/
 *.egg-info/
 *.pyc
+fontsize.csv
